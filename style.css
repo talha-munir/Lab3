@@ -13,12 +13,6 @@
 	animation-iteration-count: infinite;
 	
 }
-@keyframes example {
-    0%   {top:10%;}
-    25%  {top:15%;}
-    50%  {top:18%;}
-    100% {top:20%;}
-}
 @-webkit-keyframes moving-area {
     from { background-position: 0 0; }
 	to { background-position: -200% 0; }
@@ -27,7 +21,6 @@
 #image:target{
 	position:absolute;
 	top:20%;
-	animation-name: example;
 }
 
 .button{
